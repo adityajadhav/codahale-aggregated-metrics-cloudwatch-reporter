@@ -1,4 +1,4 @@
-package io.github.azagniotov.metrics.reporter.cloudwatch;
+package io.github.adityajadhav.metrics.reporter.cloudwatch;
 
 import com.codahale.metrics.Clock;
 import com.codahale.metrics.Counter;
@@ -18,7 +18,7 @@ import com.codahale.metrics.jvm.FileDescriptorRatioGauge;
 import com.codahale.metrics.jvm.GarbageCollectorMetricSet;
 import com.codahale.metrics.jvm.MemoryUsageGaugeSet;
 import com.codahale.metrics.jvm.ThreadStatesGaugeSet;
-import io.github.azagniotov.metrics.reporter.utils.CollectionsUtils;
+import io.github.adityajadhav.metrics.reporter.utils.CollectionsUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import software.amazon.awssdk.services.cloudwatch.CloudWatchAsyncClient;

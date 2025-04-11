@@ -201,6 +201,7 @@ The reporter can be configured to run in `DRY RUN` mode by invoking `.withDryRun
 
 
 ### Credits
+* https://github.com/azagniotov/codahale-aggregated-metrics-cloudwatch-reporter
 * https://github.com/blacklocus/metrics-cloudwatch
 * https://github.com/tptodorov/metrics-cloudwatch
 * https://github.com/basis-technology-corp/metrics-cloudwatch-reporter

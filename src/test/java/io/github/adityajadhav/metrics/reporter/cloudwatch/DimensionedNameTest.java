@@ -1,4 +1,4 @@
-package io.github.azagniotov.metrics.reporter.cloudwatch;
+package io.github.adityajadhav.metrics.reporter.cloudwatch;
 
 import org.junit.Test;
 import software.amazon.awssdk.services.cloudwatch.model.Dimension;

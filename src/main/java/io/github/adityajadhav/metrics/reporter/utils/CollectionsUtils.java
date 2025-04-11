@@ -1,4 +1,4 @@
-package io.github.azagniotov.metrics.reporter.utils;
+package io.github.adityajadhav.metrics.reporter.utils;
 
 import java.util.Collection;
 import java.util.List;
