@@ -95,9 +95,9 @@ public class CloudWatchReporter extends ScheduledReporter {
     private static final double LARGEST_SENDABLE_VALUE = 1.174271e+108;
 
     /**
-     * Each CloudWatch API request may contain at maximum 20 datums
+     * Each CloudWatch API request may contain at maximum 1000 datums
      */
-    private static final int MAXIMUM_DATUMS_PER_REQUEST = 20;
+    private static final int MAXIMUM_DATUMS_PER_REQUEST = 1000;
 
     /**
      * We only submit the difference in counters since the last submission. This way we don't have to reset
